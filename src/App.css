@@ -1,0 +1,105 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: #020202;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Sales Container */
+.sales-title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sales-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Passenger List Container */
+.passengers-title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.passengers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 20px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* Bus Queue Container */
+.bus-queue-title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.bus-queue-container {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.bus-queue h3 {
+  margin-bottom: 10px;
+}
+
+.passenger-list {
+  list-style: none;
+  padding: 0;
+}
+
+
+.passenger-list li {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: white;
+  max-width: 200px;
+}
+
+.bus-queue {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.bus-queue .queue:nth-child(1) {
+  background-color: white;
+}
+
+.bus-queue .queue:nth-child(2) {
+  background-color: white;
+}
+
+.bus-queue .queue:nth-child(3) {
+  background-color: white;
+}
